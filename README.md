@@ -8,7 +8,7 @@ This project fine tunes a pretrained ResNet18 on the Kaggle Chest X Ray Images (
 
 ## Dataset
 
-Source: Kaggle Chest X Ray Images (Pneumonia), https://www.kaggle.com/datasets/paultimothymooney/chest xray pneumonia
+Source: Kaggle Chest X Ray Images (Pneumonia), https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 Classes: NORMAL, PNEUMONIA
 
@@ -51,12 +51,6 @@ README.md, this file
 
 ## How to Run
 
-1. Clone the repo and open pneumonia_gradcam_notebook.ipynb in Google Colab, GPU runtime recommended.
+1. Clone the repo and notebook in Google Colab, GPU runtime recommended.
 2. Download the dataset via the Kaggle API, requires a kaggle.json API token.
 3. Run all cells in order: data loading, dataloaders, model setup, training, evaluation, Grad CAM.
-
-## Limitations and Future Work
-
-Address class imbalance directly through weighted loss or resampling rather than relying on augmentation alone.
-Evaluate on an external dataset from a different institution to test true generalization beyond this dataset's known distribution quirks.
-Use quantitative localization metrics, such as comparing Grad CAM regions against radiologist annotated bounding boxes, instead of visual inspection alone.
