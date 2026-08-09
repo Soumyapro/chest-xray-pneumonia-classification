@@ -60,7 +60,3 @@ README.md, this file
 Address class imbalance directly through weighted loss or resampling rather than relying on augmentation alone.
 Evaluate on an external dataset from a different institution to test true generalization beyond this dataset's known distribution quirks.
 Use quantitative localization metrics, such as comparing Grad CAM regions against radiologist annotated bounding boxes, instead of visual inspection alone.
-
-## Acknowledgements
-
-Dataset by Paul Mooney on Kaggle, https://www.kaggle.com/datasets/paultimothymooney/chest xray pneumonia, originally sourced from Kermany et al.
