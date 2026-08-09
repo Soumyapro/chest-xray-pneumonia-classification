@@ -32,7 +32,7 @@ Test: 624 images, untouched, used only for final evaluation
 
 | Metric | Validation | Test |
 |---|---|---|
-| Accuracy | 98.8% | 82% |
+| Accuracy | 98.98% | 82% |
 | Pneumonia Recall | not applicable | 99% (387/390) |
 | Normal Recall | not applicable | 53% (124/234) |
 
